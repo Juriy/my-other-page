@@ -1,9 +1,9 @@
 import './App.css';
-import { HashRouter as Router, Link, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/my-other-page">
       <div className="App">
         <ul className="menu">
           <li><Link to="/">Home</Link></li>
