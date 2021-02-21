@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <Router basename="/my-other-app">
+    <Router basename="/my-other-page">
       <div className="App">
         <ul className="menu">
           <li><Link to="/">Home</Link></li>
