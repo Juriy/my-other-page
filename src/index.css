@@ -5,9 +5,24 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #333;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+ul.menu {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+ul.menu li {
+  background-color: #282c34;
+  display: inline;
+  margin: 0 10px;
+  padding: 10px;
+}
+
+ul.menu li a,
+ul.menu li a:visited,
+ul.menu li a:active {
+  color: white;
 }
