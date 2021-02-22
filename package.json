@@ -1,7 +1,6 @@
 {
   "name": "my-other-page",
   "version": "0.1.0",
-  "homepage": "/my-other-page",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
